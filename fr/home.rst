@@ -1,98 +1,65 @@
-============================================================
-Telemeta : collaborative multimedia asset management system
-============================================================
 
+=====================================================================
+Telemeta : système de gestion collaborative d'ensembles multi-media
+=====================================================================
+
+| 
+
+Plateforme
+==========
+| **Patrimoine oral de la Francophonie (Grand-Ouest français, Canada francophone et Louisiane)**
 |
+| Cette plateforme regroupe les fonds de littérature orale collectés dès les décennies 30-40 du XXe siècle dans la ruralité du Centre-Ouest français, du Canada francophone et de la Louisiane. Elle formalise un socle culturel cohérent qui s’étale sur ces différents territoires sur plus de quatre siècles d’histoire.
 
-|version| |downloads| |travis_master| |coverage_master|
+.
 
-Overview
-=========
+Présentation
+=============
 
-Telemeta is a free and open source collaborative multimedia asset management system (MAM) which introduces fast and secure methods to archive, backup, transcode, analyse,  annotate and publish any digitalized video or audio file with extensive metadata. It is dedicated to collaborative media archiving projects, research laboratories and digital humanities - especially in ethno-musicological use cases - who need to easily organize and publish documented sound collections of audio files, CDs, digitalized vinyls and magnetic tapes over a strong database, through a smart and secure platform, in accordance with open web standards.
-
-*Telemeta* stands for *Tele* for "remote access" and *meta* for "metadata".
-
-
-Key features
-============
-
-* Secure archiving, editing and publishing of audio files over internet.
-* Pure HTML web user interface including dynamical forms and smart workflows
-* "On the fly" audio analyzing and transcoding thanks to TimeSide_
-* Smart dynamical and skinnable audio player with annotations
-* Collaborative indexing with semantic ontologies and timecoded markers
-* Multi-format support : FLAC, OGG, MP3, WAV, MP4, WebM (video) and more
-* User management with individual desk, lists, profiles and rights
-* Playlist management for all users with CSV data export
-* Geo-Navigator for audio geolocalization
-* High level search engine
-* DublinCore compatibility
-* OAI-PMH data provider
-* RSS feed generators
-* XML and ZIP serialized backups
-* EPUB3 "audio book" collection exporter
-* SQLite, MySQL, PostgreSQL or Oracle DB backends
-* Multi-language support (now english and french)
-* Run on any OS
-
-Telemeta has been developed since 2006 and is based exclusively on **100% open source and libre** modules. It is mostly written in Python, HTML5 and JavaScript.
+| Le fonctionnement de la plateforme s’appuie sur des techniques de documentation de plus en plus avancées en vue de valorisation qui rejoignent les domaines d’application dans les secteurs de la patrimonialisation, du tourisme, de la création artistique et de la participation des populations locales.
+| La plateforme ambitionne également de dynamiser les démarches scientifiques. Il s’agit non seulement de poser l’archive sonore en alternative au document écrit en tant que source de savoirs mais aussi de mettre en écho les témoignages d’hier avec les préoccupations d’aujourd’hui et enfin d’interroger les dynamiques interculturelles au travers des circulations transatlantiques liées au fait acadien et cadien.
 
 
-Funding and support
-===================
-
-To fund this long time libre and open source project, we need your explicit support. So if you use Telemeta in production or even in a development or experimental setup, please let us know by:
-
-* staring or forking the project on GitHub_
-* tweeting something to `@parisson_studio <https://twitter.com/parisson_studio>`_ or `@telemeta <https://twitter.com/telemeta>`_
-* drop us an email <support@parisson.com>
-
-Thank you so much for your help!
-
-API / Documentation
-====================
-
-* Official website: http://telemeta.org
-* Publications : https://github.com/Parisson/Telemeta-doc
-* API : http://files.parisson.com/doc/telemeta/
-* Player : https://github.com/Parisson/TimeSide/
-* Example : http://archives.crem-cnrs.fr/archives/items/CNRSMH_E_2004_017_001_01/
+.
 
 
-Bugs, issues, ideas
-===================
-
-If you find some bugs or have good ideas for enhancement, please `leave a issue on GitHub <https://github.com/Parisson/Telemeta/issues/new>`_ with the right label or tweet it `@telemeta <https://twitter.com/telemeta>`_.
-
-And remember: even if Telemeta suits you, please give us some feedback. We **need** your support!
+Fonctionnalités
+================
 
 
-License
-=======
+* Archivage, édition et publications sécurisés de fichiers audio, par Internet
+* Interface Web utilisateur "Pure HTML" utilisant des formulaires dynamiques et une gestion de flux adaptée
+* Analyse et transcodage de fichiers audio "à la volée", grâce à TimeSide_
+* Lecteur audio évolué et personnalisable, avec saisie d'annotations
+* Indexation collaborative avec ontologies sémantiques et marqueurs temporels
+* Multi-format audio : FLAC, OGG, MP3, WAV, MP4, WebM (video) ...
+* Gestion des droits et profils par utilisateur
+* Gestion de liste de lecture par utilisateur. Export vers le format CSV
+* Géo-navigateur pour situer les fichiers audio
+* Moteur de recherche avancée
+* Compatible "DublinCore"
+* Fournisseur de données OAI-PMH
+* Générateurs de flux RSS
+* Sauvegardes de données au froamts XML et ZIP
+* Exportation d'audio-livres au format EPUB3
+* Adaptateurs pour les base de données SQLite, MySQL, PostgreSQL or Oracle
+* Fonctionne sur tout type de système d'explotation.
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.
+Télémeta est développé depuis 2006, intégralement conçu avec des éléments **100% open source et libre**. Il est principalement écrit en Python HTML5 et Javascript.
 
 
-.. |version| image:: https://img.shields.io/pypi/v/telemeta.svg
-   :target: https://pypi.python.org/pypi/Telemeta/
-   :alt: Version
+.
 
-.. |downloads| image:: https://img.shields.io/pypi/dm/telemeta.svg
-   :target: https://pypi.python.org/pypi/Telemeta/
-   :alt: Downloads
+Organisation du catalogue
+=========================
 
-.. |travis_master| image:: https://secure.travis-ci.org/Parisson/Telemeta.png?branch=master
-   :target: https://travis-ci.org/Parisson/Telemeta/
-   :alt: Travis
+| Le catalogue est organisé en 5 niveaux : **Institutions** (emplacement propre à chacun des partenaires scientifiques), **Fonds, Missions, Enquêtes**, et **Items**. Le niveau principal de description est l’**Enquête**.
+| Chaque enquête regroupe l’ensemble des fichiers audio (**Items**) collectés auprès d’une même personne (ou groupe de personnes), le même jour en un même lieu. Les enquêtes répondant d’un ensemble cohérent ou collectées sur une même année sont regroupées en **Missions** qui, réunies autour d’un collecteur, constituent le niveau **Fonds**.
+|
+| Le nombre d’enregistrements mis en ligne sur la plateforme est en constante augmentation. Les fiches descriptives sont renseignées de manière collaborative par les usagers des différents partenaires de la plateforme.
 
-.. |coverage_master| image:: https://coveralls.io/repos/Parisson/Telemeta/badge.png?branch=master
-   :target: https://coveralls.io/r/Parisson/Telemeta?branch=master
-   :alt: Coverage
+.
+
 
 
 .. _Telemeta: http://telemeta.org
